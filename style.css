@@ -40,7 +40,7 @@
     width: 1000px;
     height: 700px;
     margin: auto;
-    padding-top: 90px;
+    padding: 90px 0;
 }
 .img {
     width: 560px;
@@ -58,4 +58,34 @@
 .failures-text p,li{
     font-size: 16px;
     margin: 18px;
+}
+/* My Plans Section */
+#my-plans {
+    margin: 0 230px;
+}
+#my-plans h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.my-plans {
+    display: flex;
+    width: 1120px;
+    height: 200px;
+}
+.plan {
+    margin: 0 35px;
+}
+.plan img {
+    height: 90px;
+    width: 90px;
+    margin: 0 40px;
+}
+.plan h3 {
+    font-size: 30px;
+    margin: 18px 0;
+}
+.plan p {
+    font-size: 25px;
+    text-align: center;
 }
