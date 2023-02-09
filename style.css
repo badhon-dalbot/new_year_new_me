@@ -3,6 +3,15 @@
     padding: 0;
     font-family: sans-serif;
 }
+button{
+    padding: 16px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    color: #005FAC;
+}
+
+
 
 #banner {
     width: 1600;
@@ -27,13 +36,7 @@
    margin: 10px 0 32px 0;
    color: #FFFFFF;
 }
-.banner-text button{
-    padding: 16px 20px;
-    border-radius: 5px;
-    border: none;
-    font-size: 20px;
-    color: #005FAC;
-}
+
 /* My LFailure Section */
 .my-failure {
     display: flex;
@@ -61,7 +64,9 @@
 }
 /* My Plans Section */
 #my-plans {
-    margin: 0 230px;
+    width: 80%;
+    height: 300px;
+    margin: auto;
 }
 #my-plans h1{
     text-align: center;
@@ -70,11 +75,9 @@
 }
 .my-plans {
     display: flex;
-    width: 1120px;
-    height: 200px;
 }
 .plan {
-    margin: 0 35px;
+    margin: 0 40px;
 }
 .plan img {
     height: 90px;
@@ -88,4 +91,25 @@
 .plan p {
     font-size: 25px;
     text-align: center;
+}
+
+/* Call Now section */
+.call-now{
+    width: 80%;
+    height: 300px;
+    background-image: linear-gradient(to right, rgba(0, 95, 172, 0.9),rgba(0, 95, 172,0.1)),url('images/watch.png');
+    background-size: cover;
+    margin: auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.call-now-textbox {
+    width: 460px;
+    height: 182px;
+    padding: 59px 0 59px 65px;
+}
+.call-now h1{
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
 }
