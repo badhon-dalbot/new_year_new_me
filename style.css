@@ -10,6 +10,9 @@ button{
     font-size: 20px;
     color: #005FAC;
 }
+button:hover {
+    cursor: pointer;
+}
 
 
 
@@ -112,4 +115,36 @@ button{
     font-size: 40px;
     color: #FFFFFF;
     padding-bottom: 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #151414;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text {
+    margin: 140px;
+    width: 350px;
+}
+.footer-text h1{
+    font-size: 45px;
+}
+.footer-text p {
+    font-size: 16px;
+    padding: 14px 0;
+} .footer-subscribe {
+    margin: 140px 140px 140px 0;
+    display: flex;
+    flex-direction: column;
+}
+.footer-subscribe h3 {
+    font-size: 26px;
+}
+.footer-subscribe input {
+    width: 100%;
+    padding: 16px;
+    margin: 30px 0;
+    background: transparent;
 }
