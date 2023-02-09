@@ -34,3 +34,28 @@
     font-size: 20px;
     color: #005FAC;
 }
+/* My LFailure Section */
+.my-failure {
+    display: flex;
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+    padding-top: 90px;
+}
+.img {
+    width: 560px;
+    height: 700px;
+}
+.failures-text {
+    margin: 240px 0px 180px 45px;
+}
+.failures-text ul {
+    list-style: none;
+}
+.failures-text h3{
+    font-size: 40px;
+}
+.failures-text p,li{
+    font-size: 16px;
+    margin: 18px;
+}
